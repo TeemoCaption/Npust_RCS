@@ -98,7 +98,7 @@ header.sticky ul li a {
 }
 
 header.sticky a {
-  font-size: 25px;
+  font-size: 24px;
 }
 
 .banner {
@@ -112,6 +112,7 @@ header.sticky a {
 .main {
   width: 100%;
   height: auto;
+  display: inline-block;
 }
 
 .m_top {
@@ -123,12 +124,6 @@ header.sticky a {
           justify-content: center;
   border: solid 2px;
   margin-top: 25px;
-}
-
-.mc, .aside {
-  display: inline-block;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .mc {
@@ -161,7 +156,7 @@ header.sticky a {
 
 .mc p {
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 35px;
 }
 
@@ -199,16 +194,114 @@ header.sticky a {
 }
 
 .mid_mc img {
-  width: 100%;
+  width: 80%;
   height: auto;
   margin-top: 35px;
 }
 
 .mid_aside {
+  padding: 100px;
   position: relative;
   border: solid 2px;
   padding: 30px;
   height: auto;
   width: 60%;
+}
+
+.mid_aside p {
+  margin-top: 160px;
+  font-size: 22px;
+}
+
+.m_down {
+  border: solid 2px;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.down_mc {
+  position: relative;
+  border: solid 2px;
+  padding: 50px;
+  height: auto;
+  width: 100%;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.down_mc p {
+  margin-top: 180px;
+  font-size: 22px;
+}
+
+.down_mc hr {
+  position: relative;
+  margin: 15px 120px;
+}
+
+.down_mc h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.down_mc p {
+  margin-top: 15px;
+  font-size: 22px;
+  line-height: 35px;
+  text-align: left;
+  text-justify: auto;
+}
+
+.down_mc li {
+  font-size: 22px;
+  margin-top: 40px;
+  text-align: center;
+  text-justify: auto;
+  list-style: none;
+  background-color: #ffc168;
+}
+
+.photo_1 {
+  border: solid 2px;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pc {
+  position: relative;
+  border: solid 2px;
+  padding: 50px;
+  height: auto;
+  width: 100%;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.pc hr {
+  position: relative;
+  margin: 15px 120px;
+}
+
+.pc h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.pc img {
+  width: 100%;
+  height: auto;
+  margin-top: 35px;
 }
 /*# sourceMappingURL=index.css.map */
