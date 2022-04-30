@@ -4,7 +4,7 @@
     box-sizing: border-box
 
 body
-    background-color: #000
+    background-color: #efe9e5
     min-height: 200vh
 
 header
@@ -12,21 +12,32 @@ header
     top: 0
     left: 0
     width: 100%
+    height: 20vh
     display: flex
     justify-content: space-between
     align-items: center
     transition: 0.6s
     paddind: 40px 100px
+    background-color: #f6f6f5
+    z-index: 100000
+
+header .logo-img    
+    position: relative
+    width: 200px
+    height: 20vh
+    margin: 0px
 
 header .logo
-    position: 
+    position: relative
     font-weight: 700px
-    color: #fff
+    color: #000
     text-decoration: none
     font-size: 2em
     text-transform: uppercase
     letter-spacing: 2px
     transition: 0.6s
+    margin-right: 120px
+    margin-left: 25px
 
 header ul
     position: relative
@@ -37,20 +48,40 @@ header ul
 header ul li
     position: relative
     list-style: none
+    font-size: 24px
 
 header ul li a
     position: relative
     margin: 0px 15px
     text-decoration: none
-    color:#fff  
+    color:#000
     font-weight: 500px
     transition: 0.6s
 
 .banner
-    position: relative
+    position: relative  
     width: 100%
     height: 100vh
-    background-image: url("image/bg.jpg")
+    background-attachment: scroll
     background-size: cover
+
+.main
+    border: solid 2px
+    width: 100%
+    height: 100vh
+    display: flex
+    padding: 20px
+    justify-content: center
+
+.mc_01
+    position: relative
+
+.mc_01 hr
+    background-color: red
+    size: 1
+    width: 100px
+    
+    
+    
 
     
