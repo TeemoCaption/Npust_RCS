@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="sticky">
         <img src="image/Logo.jpg" alt="logo" class="logo-img">
         <a href="#" class="logo">電子商務研發中心 ECRC</a>
         <ul>
@@ -35,6 +35,12 @@
             <hr>
         </div>
     </section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function() {
+            var header = document.querySelector("header")
+            header.classList.toggle("sticky", window.scrollY > 0)
+        })
+    </script>
 </body>
 
 </html>
