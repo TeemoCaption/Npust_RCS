@@ -75,6 +75,12 @@ header ul li {
   position: relative;
   list-style: none;
   font-size: 24px;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+header ul li:hover {
+  border-bottom: solid 2px white;
 }
 
 header ul li a {
@@ -97,8 +103,14 @@ header.sticky ul li a {
   color: #000;
 }
 
-header.sticky a {
+header.sticky ul li {
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
   font-size: 24px;
+}
+
+header.sticky ul li:hover {
+  border-bottom: solid 2px black;
 }
 
 .banner {
@@ -122,13 +134,11 @@ header.sticky a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: solid 2px;
   margin-top: 25px;
 }
 
 .mc {
   position: relative;
-  border: solid 2px;
   padding: 50px;
   height: auto;
   width: 75%;
@@ -138,10 +148,30 @@ header.sticky a {
 
 .aside {
   position: relative;
-  border: solid 2px;
   padding: 30px;
   height: auto;
   width: 25%;
+}
+
+.aside h1 {
+  margin-bottom: 30px;
+}
+
+.aside a {
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  color: #000;
+  margin-top: 15px;
+  width: 75%;
+  height: auto;
+}
+
+.aside a:hover {
+  border-bottom: solid 2px red;
+  color: #ce181e;
 }
 
 .mc hr {
@@ -172,7 +202,6 @@ header.sticky a {
 }
 
 .m_mid {
-  border: solid 2px;
   width: 100%;
   height: auto;
   display: -webkit-box;
@@ -185,7 +214,6 @@ header.sticky a {
 
 .mid_mc {
   position: relative;
-  border: solid 2px;
   padding: 50px;
   height: auto;
   width: 40%;
@@ -202,7 +230,6 @@ header.sticky a {
 .mid_aside {
   padding: 100px;
   position: relative;
-  border: solid 2px;
   padding: 30px;
   height: auto;
   width: 60%;
@@ -214,7 +241,6 @@ header.sticky a {
 }
 
 .m_down {
-  border: solid 2px;
   width: 100%;
   height: auto;
   display: -webkit-box;
@@ -227,7 +253,6 @@ header.sticky a {
 
 .down_mc {
   position: relative;
-  border: solid 2px;
   padding: 50px;
   height: auto;
   width: 100%;
@@ -268,7 +293,6 @@ header.sticky a {
 }
 
 .photo_1 {
-  border: solid 2px;
   width: 100%;
   height: auto;
   display: -webkit-box;
@@ -281,7 +305,6 @@ header.sticky a {
 
 .pc {
   position: relative;
-  border: solid 2px;
   padding: 50px;
   height: auto;
   width: 100%;
@@ -306,7 +329,6 @@ header.sticky a {
 }
 
 .photo_2 {
-  border: solid 2px;
   width: 100%;
   height: auto;
 }
@@ -339,7 +361,6 @@ header.sticky a {
   position: relative;
   width: 50%;
   height: auto;
-  border: solid 2px;
   line-height: 50px;
   padding: 50px;
   display: block;
