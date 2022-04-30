@@ -98,7 +98,7 @@ header.sticky ul li a {
 }
 
 header.sticky a {
-  font-size: 24px;
+  font-size: 25px;
 }
 
 .banner {
@@ -110,9 +110,8 @@ header.sticky a {
 }
 
 .main {
-  border: solid 2px;
   width: 100%;
-  height: 400vh;
+  height: auto;
 }
 
 .m_top {
@@ -123,7 +122,7 @@ header.sticky a {
       -ms-flex-pack: center;
           justify-content: center;
   border: solid 2px;
-  margin: 25px 10px;
+  margin-top: 25px;
 }
 
 .mc, .aside {
@@ -136,15 +135,17 @@ header.sticky a {
   position: relative;
   border: solid 2px;
   padding: 50px;
-  height: 380vh;
+  height: auto;
   width: 75%;
+  text-align: justify;
+  text-justify: auto;
 }
 
 .aside {
   position: relative;
   border: solid 2px;
   padding: 30px;
-  height: 100vh;
+  height: auto;
   width: 25%;
 }
 
@@ -156,21 +157,58 @@ header.sticky a {
 .mc h1 {
   text-align: center;
   font-size: 36px;
-  margin-top: 10px;
 }
 
 .mc p {
   margin-top: 10px;
-  font-size: 24px;
+  font-size: 20px;
+  line-height: 35px;
 }
 
 .mc li {
   font-size: 24px;
+  margin-top: 15px;
 }
 
 .mc img {
   width: 80%;
   height: auto;
-  margin-top: 15px;
+  margin-top: 35px;
+}
+
+.m_mid {
+  border: solid 2px;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mid_mc {
+  position: relative;
+  border: solid 2px;
+  padding: 50px;
+  height: auto;
+  width: 40%;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.mid_mc img {
+  width: 100%;
+  height: auto;
+  margin-top: 35px;
+}
+
+.mid_aside {
+  position: relative;
+  border: solid 2px;
+  padding: 30px;
+  height: auto;
+  width: 60%;
 }
 /*# sourceMappingURL=index.css.map */
