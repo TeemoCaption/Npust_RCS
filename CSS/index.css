@@ -152,8 +152,11 @@ header.sticky ul li:hover {
 .aside {
   position: relative;
   padding: 30px;
-  height: auto;
+  height: 50%;
   width: 25%;
+  background-color: white;
+  -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .aside h1 {
