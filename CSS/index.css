@@ -9,7 +9,6 @@
 
 body {
   background-color: #f4f7f9;
-  min-height: 200vh;
 }
 
 header {
@@ -380,7 +379,6 @@ footer {
   position: relative;
   width: 100%;
   height: auto;
-  border: solid 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
