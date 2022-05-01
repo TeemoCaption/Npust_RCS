@@ -197,73 +197,13 @@ header.sticky ul li:hover {
 .mc li {
   font-size: 24px;
   margin-top: 15px;
+  list-style: square;
 }
 
 .mc img {
   width: 80%;
   height: auto;
   margin-top: 35px;
-}
-
-.m_down {
-  width: 100%;
-  height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.down_mc {
-  position: relative;
-  padding: 50px;
-  height: auto;
-  width: 100%;
-  text-align: justify;
-  text-justify: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.down_mc img {
-  height: 80vh;
-  width: auto;
-}
-
-table {
-  width: auto;
-}
-
-table, td {
-  text-align: center;
-  border: 1px solid #333;
-}
-
-thead {
-  font-size: 20px;
-}
-
-td {
-  padding: 10px;
-}
-
-tbody td {
-  text-align: left;
-  text-justify: auto;
-  text-overflow: ellipsis;
-  min-width: 80px;
-  overflow: hidden;
-}
-
-thead, tfoot {
-  background-color: #0099e5;
-  color: #fefefe;
 }
 
 footer {
@@ -332,4 +272,4 @@ footer hr {
   height: 15vh;
   margin-top: 10px;
 }
-/*# sourceMappingURL=page2.css.map */
+/*# sourceMappingURL=page3.css.map */
