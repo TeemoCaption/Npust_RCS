@@ -2,6 +2,7 @@
     margin: 0px
     padding: 0px
     box-sizing: border-box
+    font-family: 微軟正黑體
 
 body
     background-color: #f4f7f9
@@ -27,7 +28,7 @@ header.sticky
 
 header .logo-img    
     position: relative
-    width: 150px
+    width: auto
     height: 25vh
     margin: 0px
     transition: 0.6s
@@ -67,7 +68,7 @@ header ul li a
 
 header.sticky .logo-img
     height: 15vh
-    width: 100px
+    width: auto
 
 header.sticky .logo,
 header.sticky ul li a
@@ -83,7 +84,7 @@ header.sticky ul li:hover
 .banner
     position: relative  
     width: 100%
-    height: 80vh
+    height: 90vh
     background-attachment: scroll
     background-size: cover
 
@@ -278,7 +279,6 @@ header.sticky ul li:hover
     padding: 50px 
     display: block
     text-align: center
-    border: solid 2px
 
 .box_1 img,.box_2 img,.box_3 img,.box_4 img
     height: 100vh
@@ -287,12 +287,31 @@ header.sticky ul li:hover
 footer
     position: relative
     width: 100%
-    height: 50vh
+    height: auto
     border: solid 2px
     display: flex
     justify-content: center
-    color: #fff
     background-color: #4d4f53
+
+footer .f_left,footer .f_right
+    position: relative
+    width: 50%
+    height: auto
+    line-height: 30px
+    padding-top: 20px 
+    padding-bottom: 20px 
+    display: block
+    color: #fff
+
+footer h2
+    text-align: center
+
+footer p
+    margin-left: 60px
+
+footer hr
+    position: relative
+    margin: 15px 60px
     
     
     
